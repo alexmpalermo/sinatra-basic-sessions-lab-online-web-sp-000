@@ -12,7 +12,7 @@ end
   end 
 
   post '/checkout' do
-    session["item"] = 
+    session["item"] = params[:name]
   @session = session
   end
 
