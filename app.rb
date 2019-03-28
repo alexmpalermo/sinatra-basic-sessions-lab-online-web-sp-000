@@ -12,7 +12,8 @@ end
   end 
 
   post '/checkout' do
-    
+    session["item"] = 
+  @session = session
   end
 
 end
